@@ -1,0 +1,195 @@
+/* BODY */
+body{
+    background-color: white;
+    align-self: center;
+}
+
+/* HEADER */
+
+main{
+    text-align:center;
+    padding:35px;
+    background-color: #c2e4ec;
+}
+p{
+    color: #493d3d;
+    letter-spacing:1px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+.container{
+    display:flex;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: x-large;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 35px;
+    justify-content:center;
+    gap: 130px;
+    padding:5px;
+    
+}
+
+/* BOX */
+.box{
+    width: 300px;
+    background:rgb(211, 211, 191);
+    padding:15px;
+    border-radius:15px;
+    justify-content: center;
+    box-shadow: 5px 20px 15px rgb(72, 133, 156);
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-6px);
+}
+
+/* INPUT of the box*/
+input{
+    width:70%;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+    border:1px solid #2c2525;
+    outline:rgb(117, 79, 8);
+}
+
+input:focus{
+    border-color:#3498db;
+}
+
+/* BUTTON */
+button{
+    margin-top:  10px;
+    padding:10px;
+    width:100%;
+    border:#921111;
+    border:#2c2525;
+    background: linear-gradient(135deg,#36d1dc,#5b86e5);
+    color:whitesmoke;
+    font-size: large;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+
+
+/* TOTAL CALORIES */
+#totalcalories{
+    font-size: 25px;
+    text-align: center;
+    font-weight:bold;
+    background-color:rgb(211, 211, 191);
+    color: #ffffff;
+}
+
+/* 🔥 SUGGESTION SINGLE LINE BOX */
+
+/* TEXT */
+#suggestion{
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+    background-color: #b8a436;
+    color:#754d03;
+}
+
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:8px;
+    background:#f6c8cc;
+    color:white;
+    margin-top:20px;
+    font-size:24px;
+}
+
+.group1{
+    background-color: #a86363ef;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    padding: 8px;
+    color:white;
+}
+
+.group2{
+    background-color: #f6c8cc;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(122, 48, 73);
+}
+
+#reset{
+    width: 200;
+    border-style: dashed;
+    color: rgb(194, 25, 25);
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* .group1{
+    text-align: center;
+    color: rgb(58, 41, 6);
+    background-color:rgb(243, 243, 142);
+}
+
+main{
+    text-align: center;
+    color: brown;
+    font-size: large;
+    font-weight: bolder;
+}
+
+body{
+    background-color:#e0e5da;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(95, 95, 27);
+}
+
+.group2{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(29, 28, 26);
+    background-color: #f6c8cc;
+}
+
+#id8{
+    text-align: center;
+    font-size: large;
+    background-color: rgb(51, 158, 57);
+}
+
+#id7{
+    font-size: large;
+}
+
+::placeholder{
+    color: rgb(172, 29, 29);
+}
+
+button{
+    height: 100px;
+}  
+
+#id1{
+    font-size: 80px;
+    
+} */

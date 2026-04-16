@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#Heading1{
+    color:#000000;
+    font-size: 3rem;
+    font-family: fantasy sans-serif;
+    font-size: 60px;
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(160, 117, 61);
+    display: block;
+    font-weight: bold;
+        color: #9b6a6a;
+    text-shadow: 4px 6px 20px #d4a115;
+    background-color: #6c95be;
+    box-shadow: 5px 5px 35px rgba(248, 23, 23, 0.603);
+
+    text-align: center;
+}
+
+
+#Heading3{
+    color:#22550e;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+#Heading4{
+    background-color: rgb(221, 228, 233);
+    text-align: center;
+}
+
+main{
+    background-color:#FBE580;
+}
+
+#Heading5{
+    height: 25px;
+    text-align:center;
+    font-size: 50px;
+    color:rgb(216, 39, 39);
+    
+}
+
+
+#Heading6{
+    text-align: center;
+    background-color:#779154;
+    font-size: xx-large;
+    color:whitesmoke;
+    text-decoration:line-through #779154;
+}
+
+.group5{
+    background-color:#93BD57;
+}
+
+.group6{
+    background-color: #740a0a;
+}
+#Heading7{
+    
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+    text-decoration:underline whitesmoke
+
+}
+#Heading8{
+    
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: 200;
+    text-align: center;
+}
+
+header{
+    background-color:rgb(211, 199, 184);
+}
+
+.group1{
+    display: flex;
+    justify-content: center;
+    gap: 118px;
+    flex-direction: row;
+}
+.subgroup1{
+    text-align: center;
+}
+.subgroup1 b{
+    font-size: x-large;
+}
+.subgroup1 p{
+    font-size: large;
+    color: rgb(134, 94, 15);
+}
+.subgroup1 img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+
+.group2{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    flex-direction: row;
+}
+.subgroup2{
+    text-align: center;
+}
+.subgroup2 b{
+    font-size: x-large;
+}
+.subgroup2 p{
+    font-size: large;
+    color: rgb(134, 94, 15);
+}
+.subgroup2 img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}

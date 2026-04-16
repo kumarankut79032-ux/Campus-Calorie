@@ -1,0 +1,232 @@
+body {
+    background-color: #36656B;
+}
+
+#Heading1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    height: 60px;
+    color: rgb(176, 204, 15);
+    background-color: rgb(34, 29, 29);
+}
+
+#Heading2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: antiquewhite;
+}
+
+main{
+    background-color: #75B06F;
+}
+
+h{
+    color: #36656B;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+::placeholder{
+    width: 100%;
+    color: rgb(43, 128, 55);
+    align-items: center;
+
+}
+
+button{
+    text-align: center;
+    font-size: x-large;
+    color: rosybrown;
+}
+
+footer{
+    background-color: #DAD887;
+    text-align: center;
+}
+
+.group6{
+    background-color: #F0F8A4;
+    color: rgb(44, 21, 39);
+    font-size: medium;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding: 12px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#id2{
+    color: blanchedalmond;
+    font-size: large;
+    text-align: center;
+
+}
+
+.group1{
+    display: flex;
+    gap: 80px;
+    padding: 0px;
+    justify-content: center;
+}
+.group1 fieldset {
+  border: 4px solid #4A90E2;
+  border-radius: 40px;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  gap:35px;
+  background-color: #d3ecec;
+  width: 500px;
+    align-items: center;
+}
+.group1 legend {
+  padding: 20px;
+  font-weight: bold;
+  color: #4A90E2;
+  font-size: 35px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group1 label {
+  display:block;
+  align-items: center;
+  cursor:pointer;
+  font-size: x-large;
+}
+.group1 input[type="radio"] {
+  margin-right:auto;
+  width: 20px;
+    height: 20px;
+  
+}
+
+.group2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+.group2 fieldset {
+  border: 4px solid #4A90E2;
+  border-radius: 40px;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #d3ecec;
+  width: 450px;
+  align-items: center;
+}
+.group2 legend {
+  padding:0 10px;
+  font-weight: bold;
+  color: #4A90E2;
+  font-size: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group2 label {
+  font-size: x-large;
+  display:block;
+  text-align: center;
+}
+.group2 input[type="text"] {
+  margin-right: auto;
+  width: 200px;
+    height: 30px;
+  
+}
+
+.group3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+.group3 fieldset {
+  border: 4px solid #4A90E2;
+  border-radius: 40px;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #d3ecec;
+  width: 775px;
+}
+.group3 legend {
+  padding:0 10px;
+  font-weight: bold;
+  color: #4A90E2;
+  font-size: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group3 label {
+  font-size: xx-large;
+  display: inline;
+}
+.group3 input[type="number"] {
+  margin-right:auto;
+  width: 500px;
+    height: 20px;
+  
+}
+
+.group4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+.group4 fieldset {
+  border: 4px solid #4A90E2;
+  border-radius: 40px;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #d3ecec;
+  width: 1100px;
+}
+.group4 legend {
+  padding:0 10px;
+  font-weight: bold;
+  color: #4A90E2;
+  font-size: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group4 label {
+  font-size: xx-large;
+  display: inline;
+}
+.group4 input[type="number"] {
+  margin-right:auto;
+  width: 500px;
+    height: 20px;
+  
+}
+
+#submit{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.result{
+  font-size:x-large;
+  font-weight: bold;
+  color: rgb(63, 18, 18);
+}
+
+

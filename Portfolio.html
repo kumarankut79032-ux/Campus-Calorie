@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fill Details like age, height, weight, etc... </title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <p id="Heading1"> Daily Calorie Intake Calculator </p>
+    <p id="Heading2"> Feel free to enter your information below in the Daily Calorie Intake calculator to receive your personal current daily calorie intake, and what your body needs to fuel itself during the day with your routine!</p>
+    <br>
+    <p id="id2"> Fill the Information Listed Below :- </p>
+    <main>
+        <br>
+        <br>
+
+
+    <div class="group1"> 
+    <fieldset class="radio frame">
+        <form>
+    <legend> 1. What is your Sex? </legend>
+    <br>
+    <label>
+    <input type="radio" value="Male" name="sex" id="m"> Male
+    </label>
+    <label>
+    <input type="radio" value="Female" name="sex" id="f"> Female
+    </label>
+    <label>
+    <!-- <input type="radio" value="Prefer not to say" name="sex"> Prefer Not to Say...   -->
+    </label>
+    </form>
+    </fieldset>
+    <fieldset class="radio-frame">
+    <form>
+    <legend> 2. Activity on daily basis? </legend>
+    <br>
+    <label><input type="radio" value="Lightly Active" id="la" name="Activity"> Lightly Active</label>
+    <label><input type="radio" value="Active" id="a" name="Activity"> Active</label>
+    <label><input type="radio" value="Moderately Active" id="ma" name="Activity"> Moderately Active</label>
+    <label><input type="radio" value="Very Active" id="va" name="Activity"> Very Active</label>
+    </form>
+    </fieldset>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="group2">
+    <fieldset>
+    <form>
+    <legend> 3. How Old are you? </legend>
+    <br>
+    <label><input type="number" id="age" placeholder="Enter your Age(yr)"></label>
+    <!-- <label><button id="agebtn"> Tap Here </button></label> -->
+    </form>
+    </fieldset>
+    </div>
+
+
+    <div class="group3">
+    <fieldset class="input frame">
+        <form>
+    <legend> 4. How tall are you? </legend>
+    <label><input type="number" id="height" placeholder="Enter your height(cm)"></label>
+    </form>
+    </fieldset>
+    </div>
+
+
+    <div class="group4">
+    <fieldset class="input frame2">
+        <form>
+    <legend> 5. How much do you Weigh? </legend>
+    <label><input type="number" id="weight" placeholder="Enter your weight(kg)"></label>
+    </form>
+    </fieldset>
+    </div>
+    <br>
+    <br>
+    </main>
+
+    <br>
+    <footer>
+        <div class="class1">
+    <button class="calculateCalories()" id="submit" oneclick="calculate()"><b> Calculate </b></button>
+    <div class="result">
+        <p>Your BMR is: </p>
+        <div id="result">00.00</div>
+        <p class="comment"></p>
+    </div>
+    </div>
+    <br>
+    <button><a href="Hello.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFAuJnJVyNyoUyOpVwSiw4x828Hy_Xw66Rh8rsiybSw&s/" width="100"></a></button>
+    <br>
+    <br>
+    <br>
+    </footer>
+    <br>
+    <div class="group6"><br><b id="id1">By using this calculator for your caloric needs, this equation factors in your gender, age, height, current weight, and exercise levels. The resulting number will then be your daily calorie intake recommended for your lifestyle, where you can then adjust this to lose weight, gain weight, or maintain things where they are weight-wise. For a mathematical visual, the formula is the following for women, where the BMI is calculated as 655.1 + (9.563 x weight in kg) + (1.850 x height in cm) - (4.676 x age in years), and for men, BMR = 66.47 + (13.75 x weight in kg) + (5.003 x height in cm) - (6.755 x age in years). This is then multiplied by your activity level, with Sedentary as BMR x 1.2, Lightly active as BMR x 1.375, Moderately active as BMR x 1.55, Active as BMR x 1.725, and finally very active is calculated by the BMR x 1.9.</b>
+    <br><br>
+    <i> As you can see from these calculations, the intensity of exercise levels that play into this also has its spectrum. The lightest active level exercise levels would be categorized as mostly sitting the majority of the day such as office work. The next level as someone who is moderately active would be someone who is mostly standing during the day such as working as a teacher or cashier as their profession. Active individuals would be categorized as mostly walking during the day such as a sales representative or server, and a very active level would look like a physically active day such as a builder.</i>
+    <br>
+    <br>
+    <i> As mentioned, another factor that comes into play with your daily calorie intake is your weight goal itself. If you are currently aiming to lose weight, the calculator will show you a prediction of losing 1 to 2 lb per week. For maintenance, this may be a goal you want to aim for with just keeping your current body weight, or when you’ve reached your goal weight. The goal weight calculation will also show a healthy weight gain of 1 to 2 lb per week. On average, women will need anywhere from 1,800 to 2,400 calories to maintain their weight, while men will need on average 2,400 to 3,000 calories per day to keep their weight where it is. There will be individual factors that play into this, but as a general overview, this can help determine where to keep, add, or subtract calories to reach your wellness goals.</i>
+    <br>
+    <br>
+    <br>
+    </div>
+    <script src="portfolio.js"> </script>
+</body>
+</html

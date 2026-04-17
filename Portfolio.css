@@ -228,5 +228,41 @@ input {
   font-weight: bold;
   color: rgb(63, 18, 18);
 }
+/* --- MOBILE RESPONSIVE FIXES FOR PORTFOLIO --- */
+@media (max-width: 768px) {
+    
+    /* 1. Fix the Title Box so text doesn't spill out */
+    #Heading1 {
+        font-size: 28px !important;  /* Shrink the massive 40px font */
+        height: auto !important;     /* Let the box grow if text wraps */
+        padding: 15px 5px !important;
+    }
 
+    /* 2. Shrink the subtitle so it's readable */
+    #Heading2 {
+        font-size: 16px !important;
+        padding: 0 10px;
+    }
+
+    /* 3. Stop the form elements from touching the edges of the phone */
+    main {
+        padding: 10px;
+    }
+
+    /* 4. Ensure radio buttons and inputs don't stretch off-screen */
+    .group1, fieldset {
+        width: 95% !important;
+        margin: 0 auto !important;
+        box-sizing: border-box; /* This stops padding from breaking the width */
+    }
+
+    /* 5. Make the "Calculate" button thumb-friendly */
+    button {
+        width: 90% !important;
+        max-width: 300px;
+        height: 50px;
+        font-size: 20px !important;
+        margin-top: 15px;
+    }
+}
 

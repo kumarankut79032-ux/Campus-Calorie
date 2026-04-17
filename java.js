@@ -76,8 +76,34 @@ clickfood.onclick = () => {
     cal = 200; totalDailyCalories += cal;
 } else if (foodvalue === "namkeen") {
     cal = 150; totalDailyCalories += cal;
+    //
+ } else if (foodvalue === "pizza") {
+    cal = 266; totalDailyCalories += cal;
+    } else if (foodvalue === "naan") {
+    cal = 260; totalDailyCalories += cal;
+} else if (foodvalue === "pasta") {
+    cal = 150; totalDailyCalories += cal;
+    } else if (foodvalue === "chowmein" || foodvalue === "noodles") {
+    cal = 219; totalDailyCalories += cal;
+} else if (foodvalue === "egg roll") {
+    cal = 196; totalDailyCalories += cal;
+} else if (foodvalue === "chicken tikka") {
+    cal = 250; totalDailyCalories += cal;
+} else if (foodvalue === "chicken roll") {
+    cal = 200; totalDailyCalories += cal;
+} else if (foodvalue === "momos") {
+    cal = 100; totalDailyCalories += cal;
+} else if (foodvalue === "kukure") {
+    cal = 546; totalDailyCalories += cal;
+} else if (foodvalue === "sweets") {
+    cal = 190; totalDailyCalories += cal;
+} else if (foodvalue === "coffee") {
+    cal = 5; totalDailyCalories += cal;
 
-// --- CATEGORY 2: INDIAN BREAKFAST ---
+
+
+
+
 } else if (foodvalue === "poha") {
     cal = 180; totalDailyCalories += cal;
 } else if (foodvalue === "upma") {
@@ -99,7 +125,6 @@ clickfood.onclick = () => {
 } else if (foodvalue === "uttapam") {
     cal = 200; totalDailyCalories += cal;
 
-// --- CATEGORY 3: INDIAN LUNCH ---
 } else if (foodvalue === "rice") {
     cal = 130; totalDailyCalories += cal;
 } else if (foodvalue === "roti") {
@@ -121,7 +146,7 @@ clickfood.onclick = () => {
 } else if (foodvalue === "fish curry") {
     cal = 320; totalDailyCalories += cal;
 
-// --- CATEGORY 4 & 5: DINNER & EXTRA ITEMS ---
+
 } else if (foodvalue === "biryani") {
     cal = 450; totalDailyCalories += cal;
 } else if (foodvalue === "khichdi") {
@@ -182,7 +207,7 @@ clickfood.onclick = () => {
     cal = 110; totalDailyCalories += cal;
 } else if (foodvalue === "bari") {
     cal = 125; totalDailyCalories += cal;
-} // --- CATEGORY: FRUITS ---
+}
  else if (foodvalue === "apple") {
     cal = 52; totalDailyCalories += cal;
 } else if (foodvalue === "orange" || foodvalue === "santara") {
@@ -213,7 +238,7 @@ clickfood.onclick = () => {
     cal = 57; totalDailyCalories += cal;
 } else if (foodvalue === "apricot" || foodvalue === "khubani") {
     cal = 48; totalDailyCalories += cal;}
-    // --- CATEGORY: SABJIS & BHUJYA ---
+    
 else if (foodvalue === "aloo sabji") {
     cal = 175; totalDailyCalories += cal;
 } else if (foodvalue === "soybean sabji") {
@@ -235,9 +260,10 @@ else if (foodvalue === "aloo sabji") {
 } else if (foodvalue === "masala chokha" || foodvalue === "chokha") {
     cal = 115; totalDailyCalories += cal;}
 else {
-    // If they type something we don't know
-    cal = 0;
-    alert("Food item not found! Try Samosa, Roti, or Biryani.");
+    cal = Math.floor(Math.random()* 150) + 150 ;
+    totalDailyCalories += cal;  
+    // cal = 0;
+    // alert("Food item not found! Try Samosa, Roti, or Biryani.");
 }
 if (totalDailyCalories >= (savedResult)){
         suggestion.innerText = "You are above Maintainence calories - to maintain , you should add more protein and subtract carbohydrate";
